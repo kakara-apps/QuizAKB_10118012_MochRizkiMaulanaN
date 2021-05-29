@@ -12,6 +12,86 @@
         android:orientation="vertical"
         android:layout_margin="10dp">
 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/gray_60">
+
+            <ImageView
+                android:id="@+id/iv_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:src="@drawable/logo1"/>
+
+            <TextView
+                android:id="@+id/tv_name_team"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DigiTeam"
+                android:layout_toRightOf="@+id/iv_logo"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tv_deskripsi1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Digital Together Everyone Archieve More"
+                android:layout_below="@id/tv_name_team"
+                android:layout_toRightOf="@id/iv_logo"
+                android:textSize="14dp"
+                android:textColor="@color/gray_600"/>
+
+            <TextView
+                android:id="@+id/tv_deskripsi2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jabar Digital-Service"
+                android:layout_below="@id/tv_deskripsi1"
+                android:layout_toRightOf="@id/iv_logo"
+                android:textSize="14dp"
+                android:textColor="@color/gray_600"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:src="@drawable/Ellipse"/>
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dias Eka Fredianto, S.Kom, B.IT"
+                android:layout_toRightOf="@+id/iv_profile"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tv_job"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UI Designer"
+                android:layout_below="@id/tv_name"
+                android:layout_toRightOf="@id/iv_profile"
+                android:textSize="14dp"
+                android:textColor="@color/gray_600"/>
+
+        </RelativeLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
