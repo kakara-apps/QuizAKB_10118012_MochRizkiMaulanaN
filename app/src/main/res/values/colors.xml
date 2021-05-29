@@ -15,5 +15,6 @@
     <color name="Mid_Emphasis">#151920</color>
     <color name="gray_600">#757575</color>
     <color name="gray_60">#E6F6EC</color>
+    <color name="background">#E5E5E5</color>
 
 </resources>
