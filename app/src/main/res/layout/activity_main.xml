@@ -14,7 +14,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="95dp"
             android:layout_margin="10dp"
             android:background="@color/gray_60">
 
@@ -67,7 +67,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:src="@drawable/Ellipse"/>
+                android:src="@drawable/ellipse"/>
 
             <TextView
                 android:id="@+id/tv_name"
@@ -190,6 +190,7 @@
                         android:layout_height="28dp"
                         android:layout_marginRight="2dp"
                         android:layout_marginEnd="2dp"
+                        android:layout_marginBottom="2dp"
                         android:background="@color/Primer_Green_300"
                         />
 
@@ -237,6 +238,7 @@
                         android:layout_height="28dp"
                         android:layout_marginRight="2dp"
                         android:layout_marginEnd="2dp"
+                        android:layout_marginBottom="2dp"
                         android:background="@color/Primer_Green_300"
                         />
 
@@ -284,6 +286,55 @@
                         android:layout_height="28dp"
                         android:layout_marginRight="2dp"
                         android:layout_marginEnd="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="@color/Primer_Green_300"
+                        />
+
+                    <View
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginEnd="2dp"
+                        android:background="@color/Primer_Green_800"
+                        />
+
+                    <View
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginEnd="2dp"
+                        android:background="@color/Primer_Green_800"
+                        />
+
+                    <View
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginEnd="2dp"
+                        android:background="@color/Primer_Green_800"
+                        />
+
+                    <View
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:background="@color/Primer_Green_800"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginEnd="2dp"
                         android:background="@color/Primer_Green_300"
                         />
 
@@ -331,6 +382,7 @@
                         android:layout_height="28dp"
                         android:layout_marginRight="2dp"
                         android:layout_marginEnd="2dp"
+                        android:layout_marginBottom="2dp"
                         android:background="@color/Primer_Green_300"
                         />
 
@@ -378,53 +430,7 @@
                         android:layout_height="28dp"
                         android:layout_marginRight="2dp"
                         android:layout_marginEnd="2dp"
-                        android:background="@color/Primer_Green_300"
-                        />
-
-                    <View
-                        android:layout_width="28dp"
-                        android:layout_height="28dp"
-                        android:layout_marginRight="2dp"
-                        android:layout_marginEnd="2dp"
-                        android:background="@color/Primer_Green_800"
-                        />
-
-                    <View
-                        android:layout_width="28dp"
-                        android:layout_height="28dp"
-                        android:layout_marginRight="2dp"
-                        android:layout_marginEnd="2dp"
-                        android:background="@color/Primer_Green_800"
-                        />
-
-                    <View
-                        android:layout_width="28dp"
-                        android:layout_height="28dp"
-                        android:layout_marginRight="2dp"
-                        android:layout_marginEnd="2dp"
-                        android:background="@color/Primer_Green_800"
-                        />
-
-                    <View
-                        android:layout_width="28dp"
-                        android:layout_height="28dp"
-                        android:background="@color/Primer_Green_800"
-                        />
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:orientation="horizontal">
-
-                    <View
-                        android:layout_width="28dp"
-                        android:layout_height="28dp"
-                        android:layout_marginRight="2dp"
-                        android:layout_marginEnd="2dp"
+                        android:layout_marginBottom="2dp"
                         android:background="@color/Primer_Green_300"
                         />
 
@@ -503,6 +509,7 @@
                         android:layout_height="28dp"
                         android:layout_marginRight="2dp"
                         android:layout_marginEnd="2dp"
+                        android:layout_marginBottom="2dp"
                         android:background="@color/Primer_Green_300"
                         />
 
@@ -550,6 +557,7 @@
                         android:layout_height="28dp"
                         android:layout_marginRight="2dp"
                         android:layout_marginEnd="2dp"
+                        android:layout_marginBottom="2dp"
                         android:background="@color/Primer_Green_300"
                         />
 
@@ -597,6 +605,7 @@
                         android:layout_height="28dp"
                         android:layout_marginRight="2dp"
                         android:layout_marginEnd="2dp"
+                        android:layout_marginBottom="2dp"
                         android:background="@color/Primer_Green_300"
                         />
 
@@ -644,6 +653,7 @@
                         android:layout_height="28dp"
                         android:layout_marginRight="2dp"
                         android:layout_marginEnd="2dp"
+                        android:layout_marginBottom="2dp"
                         android:background="@color/Primer_Green_300"
                         />
 
@@ -691,6 +701,7 @@
                         android:layout_height="28dp"
                         android:layout_marginRight="2dp"
                         android:layout_marginEnd="2dp"
+                        android:layout_marginBottom="2dp"
                         android:background="@color/Primer_Green_300"
                         />
 
@@ -738,6 +749,7 @@
                         android:layout_height="28dp"
                         android:layout_marginRight="2dp"
                         android:layout_marginEnd="2dp"
+                        android:layout_marginBottom="2dp"
                         android:background="@color/Primer_Green_300"
                         />
 
