@@ -60,7 +60,8 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
 
             <ImageView
                 android:id="@+id/iv_profile"
@@ -133,7 +134,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:textSize="12dp"
-                android:textColor="@color/Mid_Emphasis"
+                android:textColor="@color/gray_600"
                 android:textStyle="bold"/>
 
             <Button
@@ -156,6 +157,7 @@
             android:layout_height="wrap_content"
             android:text="Laporan Kamu"
             android:textSize="20dp"
+            android:textColor="@color/black"
             android:layout_margin="10dp"
             android:textStyle="bold"/>
 
@@ -176,7 +178,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Maret"
-                    android:layout_marginBottom="6dp"
+                    android:layout_marginBottom="8dp"
                     android:textColor="@color/Primer_Green_900"/>
 
                 <LinearLayout
@@ -495,7 +497,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="April"
-                    android:layout_marginBottom="6dp"
+                    android:layout_marginBottom="8dp"
                     android:textColor="@color/Primer_Green_900"/>
 
                 <LinearLayout
@@ -790,6 +792,637 @@
             </LinearLayout>
 
     </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Maret"
+                        android:layout_marginBottom="8dp"
+                        android:textColor="@color/Primer_Green_900"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@color/Primer_Green_300"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@color/Primer_Green_300"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@color/Primer_Green_300"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_300"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@color/Primer_Green_300"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@color/Primer_Green_300"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_300"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="April"
+                        android:layout_marginBottom="8dp"
+                        android:textColor="@color/Primer_Green_900"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@color/Primer_Green_300"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@color/Primer_Green_300"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@color/Primer_Green_300"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@color/Primer_Green_300"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@color/Primer_Green_300"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@color/Primer_Green_300"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+                        <View
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:background="@color/Primer_Green_800"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
 
     <Button
         android:layout_width="match_parent"
